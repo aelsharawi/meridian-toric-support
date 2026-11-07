@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meridian Toric privacy policy: offline camera and motion tools, encrypted local cases, temporary previews, deletion, backups and GitHub Pages hosting.">
+  <meta name="color-scheme" content="light">
+  <title>Meridian Toric — Privacy policy</title>
+  <style>
+    :root{--ink:#142b40;--muted:#53677a;--blue:#245dcc;--teal:#16766e;--mist:#f0f5f8;--line:#d9e3eb;--amber:#8a4b0c;--white:#fff}
+    *{box-sizing:border-box}
+    html{font-size:16px;scroll-padding-top:1.5rem}
+    body{margin:0;color:var(--ink);background:var(--white);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7}
+    a{color:var(--blue);text-underline-offset:.18em;overflow-wrap:anywhere}
+    a:hover{text-decoration-thickness:2px}
+    a:focus-visible{outline:3px solid var(--blue);outline-offset:5px;border-radius:2px}
+    .skip{position:absolute;left:1rem;top:-6rem;padding:.65rem 1rem;background:var(--white);z-index:10}
+    .skip:focus{top:1rem}
+    .shell{width:min(100% - 3rem,64rem);margin-inline:auto}
+    .masthead{border-bottom:1px solid var(--line)}
+    .masthead .shell{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;padding-block:1.4rem}
+    .brand{display:inline-flex;align-items:center;gap:.75rem;color:var(--ink);font-size:1.25rem;font-weight:650;letter-spacing:-.035em;text-decoration:none;white-space:nowrap}
+    .mark{display:inline-block;position:relative;width:1.8rem;height:1.8rem;border:1.5px solid var(--teal);border-radius:50%;flex:none}
+    .mark::before,.mark::after{content:"";position:absolute;left:50%;top:50%;background:var(--teal);transform:translate(-50%,-50%)}
+    .mark::before{height:1px;width:2.2rem;transform:translate(-50%,-50%) rotate(-35deg)}
+    .mark::after{height:.3rem;width:.3rem;border-radius:50%}
+    nav{display:flex;gap:1.5rem;align-items:center;font-size:.95rem}
+    nav a{color:var(--muted);text-decoration:none;padding-block:.35rem}
+    nav a[aria-current]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--teal);text-decoration-thickness:2px}
+    main{padding-block:3.6rem 4rem}
+    .policy{max-width:72ch}
+    h1,h2{line-height:1.2;letter-spacing:-.035em;font-weight:650}
+    h1{font-size:clamp(2rem,5vw,3.25rem);margin:0 0 1.1rem}
+    h2{font-size:1.35rem;margin:2.3rem 0 .85rem}
+    p{margin:.8rem 0}
+    .meta{font-size:.95rem;color:var(--muted)}
+    .intro{font-size:1.1rem;color:var(--muted)}
+    .validation{margin:1.7rem 0 2.2rem;padding:.9rem 1.1rem;border-left:3px solid var(--amber);background:#fff8ed;color:var(--amber);font-size:.95rem}
+    ul{padding-left:1.35rem}
+    li{padding-left:.2rem;margin:.55rem 0}
+    .website{margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--mist);border-radius:10px}
+    .website h2{margin-top:0}
+    .website p:last-child{margin-bottom:0}
+    footer{border-top:1px solid var(--line);background:var(--mist);padding-block:1.7rem;color:var(--muted);font-size:.88rem}
+    footer .shell{display:flex;justify-content:space-between;align-items:start;gap:1rem;flex-wrap:wrap}
+    footer p{margin:0}
+    @media(max-width:680px){.shell{width:calc(100% - 2.25rem)}.masthead .shell{flex-wrap:wrap;gap:.8rem;padding-block:1rem}nav{gap:1.3rem}main{padding-block:2.5rem 3rem}.website{padding:1rem 1.1rem}}
+    @media print{.skip{display:none}body{font-size:11pt}.shell{width:100%}main{padding-block:1rem}.website,footer{background:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="shell">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Meridian Toric</a>
+      <nav aria-label="Main navigation"><a href="index.html">Support</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+    </div>
+  </header>
+  <main id="main" class="shell" tabindex="-1">
+    <article class="policy" aria-labelledby="policy-title">
+      <h1 id="policy-title">Privacy policy</h1>
+      <p class="meta">Effective 7 November 2026<br>Meridian Toric, version 0.1.0<br>Publisher: ahmed alshaarawy</p>
+      <p class="intro">Meridian Toric is a free manual reference-photo and annotation app. Its core tools work offline, without an account.</p>
+      <p class="validation"><strong>Preclinical validation build.</strong> Use non-patient test images and non-identifying case codes. This version is not validated for surgical marking, ocular registration or clinical accuracy.</p>
+
+      <h2>Information handled by the app</h2>
+      <p>The app works with photos you capture or select, the selected eye, manual annotations, entered axis values, an optional case code and, when available, a device-roll reading. Saved cases contain the working photo and related case metadata on your device.</p>
+      <p>The app has no accounts, advertising, analytics or AI service. It does not upload photos, case codes, annotations, measurements or usage data to an app-operated server or third party.</p>
+
+      <h2>Camera, photo selection and motion</h2>
+      <ul>
+        <li><strong>Camera:</strong> camera permission allows a back-camera reference photo. Audio is not recorded.</li>
+        <li><strong>Photo import:</strong> you choose an image through the operating system’s selection interface. The app does not automatically save working photos to your photo library or delete original library images.</li>
+        <li><strong>Motion:</strong> motion access supports an experimental phone-roll indicator. It measures device tilt, not ocular rotation.</li>
+      </ul>
+      <p>You can manage available permissions in your device settings. Denying access can prevent the associated feature from working.</p>
+
+      <h2>Local encryption and temporary files</h2>
+      <p>Saved photos and case metadata are encrypted on your device. The encryption key is stored in the operating system’s secure key storage and is bound to the device.</p>
+      <p>Unsaved working photos and decrypted case previews temporarily exist as app-private cache files. The app removes its managed case previews when the preview closes or the app goes into the background, and clears its managed working caches on launch.</p>
+      <p>Original images in your photo library remain under your control. Deleting an app case does not delete an original photo-library image.</p>
+
+      <h2>Saving, deletion and backups</h2>
+      <p>You choose when to save or delete a case. This version has no sharing, export, server synchronization, cloud recovery or automatic photo-library save.</p>
+      <p>Android app backup is disabled. iOS device backups may contain encrypted case files, but the device-bound encryption key is not portable to a different device. Deleting the app or its key, or losing the device, can permanently remove access to saved cases.</p>
+      <p>Saved references do not replace the clinical record. Do not enter a patient name or identifier in the optional case-code field.</p>
+
+      <h2>External links</h2>
+      <p>Core tools do not need an internet connection. External reference links open in the device’s browser rather than inside the app. Visiting an external site is subject to that site’s privacy policy.</p>
+
+      <section class="website" aria-labelledby="website-title">
+        <h2 id="website-title">This support and privacy website</h2>
+        <p>This website is hosted on GitHub Pages. GitHub logs and stores visitors’ IP addresses for security purposes, whether or not they are signed into GitHub. See <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a>.</p>
+        <p>These pages do not set cookies, include analytics, or provide forms. They contain no JavaScript, embedded services, external fonts or external image assets. The hosting practices described above are separate from the offline app’s handling of case information.</p>
+      </section>
+
+      <h2>Support and privacy contact</h2>
+      <p>Contact ahmed alshaarawy at <a href="mailto:ask@corneo.link?subject=Meridian%20Toric%20privacy">ask@corneo.link</a> with a technical-support or privacy question. Sending an email shares the information you include with the publisher through email services.</p>
+      <p><strong>Do not email patient photos, names, case records or identifying details.</strong> For technical help, send only your device model, operating-system version, app version and a description without sensitive information.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>This notice will be updated if a released version changes how the app handles information. The effective date above identifies this policy version.</p>
+    </article>
+  </main>
+  <footer><div class="shell"><p>Published by ahmed alshaarawy<br>Meridian Toric 0.1.0</p><p><a href="index.html">Support</a><br>Effective 7 November 2026</p></div></footer>
+</body>
+</html>
